@@ -1,0 +1,35 @@
+.auth {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+
+}
+
+.auth form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.auth input {
+    width: 100%;
+    font-size: 20px;
+    padding: 0.5rem;
+    border: none;
+    border-bottom: 1px solid rgb(179, 179, 179);
+
+
+}
+
+input:focus {
+    outline: none;
+}
+
+button {
+
+    font-size: 20px;
+    padding: 0.5rem;
+
+}

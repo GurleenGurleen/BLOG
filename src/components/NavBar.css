@@ -1,0 +1,78 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem 5rem;
+
+
+}
+
+.logoContent {
+    position: absolute;
+    left: 2.9rem;
+    top: 3.5rem;
+    text-align: center;
+    line-height: 0.5rem;
+}
+
+.logoContent p {
+    font-family: 'Dancing Script', cursive;
+    font-size: 20px;
+}
+
+.logoContent p:first-child {
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+    font-weight: bold;
+
+
+}
+
+.circle {
+    border-radius: 130px;
+    height: 7rem;
+    width: 7rem;
+    background-color: rgba(0, 255, 255, 0.497);
+
+
+}
+
+.Top-light-circle {
+    position: absolute;
+    z-index: -1;
+    border-radius: 130px;
+    height: 2rem;
+    width: 2rem;
+    background-color: rgba(155, 251, 251, 0.588);
+    top: 1.5rem;
+    left: 10rem;
+}
+
+.light-circle {
+    position: absolute;
+    z-index: -1;
+    border-radius: 130px;
+    height: 2rem;
+    width: 2rem;
+    background-color: rgba(155, 251, 251, 0.588);
+    top: 9.5rem;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: center;
+
+
+}
+
+.link {
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+}
+
+.links span {
+    font-size: 14px;
+    font-weight: bold;
+}
